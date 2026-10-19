@@ -1,11 +1,15 @@
 **Project Overview**
+
+
 The IBM HR Attrition Analytics Dashboard is a two-page interactive dashboard developed in Looker Studio to analyze employee attrition, workforce composition, and the factors associated with employee turnover.
 
 The dashboard provides a high-level HR overview on the first page and deeper attrition analysis on the second page using calculated fields and interactive filters. The analysis covers employee demographics, departments, job roles, business travel, age groups, income levels, job satisfaction, and gender.
 
 The dataset contains 1,470 employees, of whom 237 have left the organization, resulting in an overall attrition rate of 16.1%. The dashboard also shows an average monthly income of 6,502.93 and an average employee age of 36.9.
 
-Objectives:
+**Objectives:**
+
+
 - Analyze the overall employee attrition rate.
 - Identify departments and employee groups with higher attrition.
 - Understand workforce distribution across job roles and gender.
@@ -14,7 +18,9 @@ Objectives:
 - Compare attrition rates across departments and gender.
 - Build interactive filters to support employee-level and segment-level exploration.
 
-Tools Used:
+**Tools Used:**
+
+
 - Looker Studio
 - Google Sheets
 - IBM HR Analytics Employee Attrition Dataset
@@ -22,7 +28,9 @@ Tools Used:
 - Interactive Filters
 - Data Visualization
 
-Process:
+**Process:**
+
+
 1. Imported the IBM HR dataset into Google Sheets.
 2. Connected the dataset to Looker Studio.
 3. Created the HR Overview dashboard with KPI cards for total employees, employees who left, average monthly income, and average employee age.
@@ -39,7 +47,9 @@ Process:
 9. Added interactive filters for Department, Gender, OverTime, Job Role, Age Group, and Income Bracket.
 10. Added navigation between the dashboard pages.
 
-Key Insights:
+**Key Insights:**
+
+
 - The overall employee attrition rate is **16.1%**, with 237 employees having left out of 1,470 employees. :contentReference[oaicite:1]{index=1}
 - **Research & Development** has the highest number of employees who left, followed by **Sales**, while Human Resources has substantially fewer departures. :contentReference[oaicite:2]{index=2}
 - The workforce is predominantly male, with the dashboard showing a **60% male and 40% female** distribution. :contentReference[oaicite:3]{index=3}
@@ -50,10 +60,13 @@ Key Insights:
 - The lowest job-satisfaction category has the highest attrition rate, while the very-high satisfaction group has the lowest rate. :contentReference[oaicite:8]{index=8}
 - The Department × Gender analysis shows noticeable differences within departments. For example, HR shows a higher attrition rate for female employees than male employees, while Sales has similar rates across the two genders. :contentReference[oaicite:9]{index=9}
 
-Dashboard Pages:
+**Dashboard Pages:**
 
-Page 1 — HR Overview Dashboard
+
+**Page 1 — HR Overview Dashboard**
+
 Provides a high-level view of employee count, attrition, income, age, department-level departures, workforce by role, gender distribution, and business-travel patterns.
 
-Page 2 — Advanced Attrition Analysis
+**Page 2 — Advanced Attrition Analysis**
+
 Provides deeper analysis using calculated fields and interactive filters to explore attrition across age groups, income brackets, job satisfaction, departments, and gender.
